@@ -94,7 +94,7 @@ body {
   font-size: 18px;
   color: rgba(75, 41, 90, 0.658);
   margin: 20px 0px;
-  margin-left: 10px;
+  margin-left: 5px;
   font-family: 'Poiret One', cursive;
 }
 
@@ -113,7 +113,7 @@ body {
 
 #add-gif {
   margin-top: 5px;
-  margin-left: 10px;
+  margin-left: 5px;
   padding: 5px 98px;
   border-radius: 5px;
   border: 1px solid rgba(75, 41, 90, 0.904);

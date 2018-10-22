@@ -1,7 +1,7 @@
 // Initial arrays
-var gifsArr = ["rick and morty", "the walking dead", "ray donovan", "the haunting of hill house", "the deuce",
+var gifsArr = ["rick and morty", "the walking dead", "ray donovan", "the deuce",
   "the simpsons", "kidding", "ballers", "shameless", "american horror story",
-  "it's always sunny in philadelphia", "south park", "elementary", "mordern family"];
+  "it's always sunny in philadelphia", "south park", "elementary", "mordern family", "the haunting of hill house"];
 
 function renderButtons() {
 
