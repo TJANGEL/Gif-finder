@@ -13,11 +13,14 @@ body {
 .jumbotron h1 {
 	font-size: 70px;
   color: lightgoldenrodyellow;
+  font-family: 'Fredoka One', cursive;
 }
 
 .gifButton {
   padding: 12px 24px;
-  font-size: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Poiret One', cursive;
   text-align: center;
   cursor: pointer;
   /* outline: none; */
@@ -35,8 +38,8 @@ body {
 }
 
 .gifButton:active {
-  background-color: #f2d3e7;
-  box-shadow: 0 5px #666;
+  background-color: rgba(165, 29, 56, 0.493);
+  box-shadow: 0 5px rgb(75, 41, 90);
   transform: translateY(4px);
 }
 
@@ -54,11 +57,12 @@ body {
 }
 
 .gif:hover {
-  background-color: lightskyblue;
+  background-color: rgba(165, 29, 56, 0.493);
 }
 
 .gif h2 {
-  font-size: 15px;
+  font-size: 18px;
+  font-family: 'Poiret One', cursive;
   color: rgb(75, 41, 90);
   font-weight: bold;
   text-align: center;
@@ -80,32 +84,36 @@ body {
 }
 
 .inputLabel {
-  font-size: 15px;
+  font-size: 18px;
   color: rgba(75, 41, 90, 0.658);
   margin: 20px 0px;
   margin-left: 10px;
+  font-family: 'Poiret One', cursive;
 }
 
 #gif-input {
-  width: 165px;
+  width: 150px;
   margin-left: 10px;
   border-radius: 5px;
-  border: 1px solid rgb(75, 41, 90);
+  border: 1px solid rgba(75, 41, 90, 0.904);
+  padding: 5px 0px;
 }
 
 #gif-input:focus {
-  background-color: rgba(75, 41, 90, 0.658);
+  background-color: rgb(236, 235, 235);
   border: 1px solid rgba(75, 41, 90, 0.658);
 }
 
 #add-gif {
-  margin-top: 15px;
+  margin-top: 5px;
   margin-left: 10px;
-  padding: 5px 100px;
+  padding: 5px 98px;
   border-radius: 5px;
-  border: 1px solid rgba(75, 41, 90, 0.658);
-  color: rgba(75, 41, 90, 0.658);
+  border: 1px solid rgba(75, 41, 90, 0.904);
+  color: rgba(75, 41, 90, 0.904);
   font-weight: bold;
+  font-family: 'Poiret One', cursive;
+  font-size: 18px;
 }
 
 #add-gif:hover {
