@@ -1,0 +1,129 @@
+body {
+	background: url(/assets/images/background-4.png);
+	background-repeat: repeat;
+}
+
+.jumbotron {
+  position: relative;
+  background-color: transparent;
+  padding: 10px 10px;
+  margin: 30px 0px 0px 0px;
+}
+
+.jumbotron h1 {
+	font-size: 70px;
+  color: lightgoldenrodyellow;
+}
+
+.gifButton {
+  padding: 12px 24px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  /* outline: none; */
+  color: darkslategray;
+  background-color: lightgoldenrodyellow;
+  border: 3px solid rgba(91, 37, 114, 0.658);
+  border-radius: 10px;
+  box-shadow: 0 5px rgba(45, 20, 56, 0.658);
+  display: inline;
+  margin: 10px 5px;
+}
+
+.gifButton:hover {
+  background-color: lightcyan;
+}
+
+.gifButton:active {
+  background-color: #f2d3e7;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#gifPanel {
+  margin: 10px 0px 0px 0px;
+}
+
+.gif {
+  margin: 15px 20px 0px 0px;
+  float: left;
+  border-radius: 10px;
+  position: relative;
+  /* left: -15px; */
+  background-color: lightgoldenrodyellow;
+}
+
+.gif:hover {
+  background-color: lightskyblue;
+}
+
+.gif h2 {
+  font-size: 15px;
+  color: rgb(75, 41, 90);
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: -3px;
+}
+
+.gif img {
+  border-radius: 0px 0px 5px 5px;
+}
+
+.formPanel {
+  position: relative;
+  top: 30px;
+  right: 15px;
+  border-radius: 10px;
+  background-color: lightgoldenrodyellow;
+  height: 125px;
+}
+
+.inputLabel {
+  font-size: 15px;
+  color: rgba(75, 41, 90, 0.658);
+  margin: 20px 0px;
+  margin-left: 10px;
+}
+
+#gif-input {
+  width: 165px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(75, 41, 90);
+}
+
+#gif-input:focus {
+  background-color: rgba(75, 41, 90, 0.658);
+  border: 1px solid rgba(75, 41, 90, 0.658);
+}
+
+#add-gif {
+  margin-top: 15px;
+  margin-left: 10px;
+  padding: 5px 100px;
+  border-radius: 5px;
+  border: 1px solid rgba(75, 41, 90, 0.658);
+  color: rgba(75, 41, 90, 0.658);
+  font-weight: bold;
+}
+
+#add-gif:hover {
+  background: rgba(75, 41, 90, 0.432);
+}
+
+#footerSpacer {
+  background: transparent;
+  width: 100%;
+  height: 70px;
+}
+
+#footerPanel {
+  text-align: center;
+  color: crimson;
+  background-color: rgba(75, 41, 90, 0.842);
+  border-top: 5px solid lightgoldenrodyellow;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+}
