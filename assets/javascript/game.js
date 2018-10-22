@@ -79,6 +79,7 @@ function animateGif() {
 
 $(document).ready(function () {
   renderButtons();
+  fetchGifs();
 });
 
 $(document).on("click", ".gifButton", fetchGifs);
