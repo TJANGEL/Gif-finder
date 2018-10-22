@@ -34,7 +34,8 @@ body {
 }
 
 .gifButton:hover {
-  background-color: lightcyan;
+  background: rgba(75, 41, 90, 0.432);
+  color: crimson;
 }
 
 .gifButton:active {
