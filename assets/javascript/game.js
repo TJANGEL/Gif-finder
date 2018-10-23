@@ -10,9 +10,9 @@ function renderButtons() {
   for (var i = 0; i < gifsArr.length; i++) {
 
     var button = $("<button>");
-    button.addClass("gifButton");
-    button.attr("data-gif", gifsArr[i]);
-    button.text(gifsArr[i]);
+      button.addClass("gifButton");
+      button.attr("data-gif", gifsArr[i]);
+      button.text(gifsArr[i]);
 
     $("#buttonPanel").append(button);
   }

@@ -8,20 +8,20 @@
   <title>GifTastic</title>
 
   <!-- jQuery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <!-- BOOTSTRAP -->
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
     crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css"/>
-
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" /> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Poiret+One" rel="stylesheet">
 
   <!-- CSS-->
   <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
-  <!-- <link rel="stylesheet" href="/assets/css/reset.css"> -->
+  <link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
 </head>
 
 <body>
@@ -36,7 +36,9 @@
       </div>
       <div class="col-lg-3 formPanel">
         <form id="gif-form">
-          <label for="gif-input" class="inputLabel">Add a Gif:</label>
+          <label for="gif-input" class="inputLabel">
+            Add a Gif:
+          </label>
           <input type="text" id="gif-input"><br>
           <input id="add-gif" type="submit" value="Submit">
         </form>
@@ -45,7 +47,7 @@
     <div class="row">
       <div id="footerSpacer">
       </div>
-      <div class="footer navbar-fixed-bottom" id="footerPanel">
+      <div class="footer navbar-fixed-bottom" class="col-lg-12" id="footerPanel">
         <div class="copyright">
           THOMAS ANGELONI &copy;
         </div>
