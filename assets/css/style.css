@@ -34,12 +34,12 @@ body {
 }
 
 .gifButton:hover {
-  background: rgba(230, 222, 222, 0.349);
+  background: transparent;
   color: white;
 }
 
 .gifButton:active {
-  background-color: rgba(165, 29, 56, 0.493);
+  background: transparent;
   box-shadow: 0 5px rgb(75, 41, 90);
   color: lightgoldenrodyellow;
   transform: translateY(4px);
@@ -61,8 +61,8 @@ body {
 }
 
 .gif:hover {
-  background-color: rgba(165, 29, 56, 0.493);
-  color: lightgoldenrodyellow;
+  background-color: transparent;
+  color: white;
 }
 
 .gif h2 {
@@ -124,7 +124,7 @@ body {
 }
 
 #add-gif:hover {
-  background: rgba(75, 41, 90, 0.432);
+  background: transparent;
   color: crimson;
 }
 
