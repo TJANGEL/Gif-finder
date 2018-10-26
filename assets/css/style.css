@@ -141,7 +141,8 @@ body {
   color: crimson;
   background-color: rgba(75, 41, 90, 0.842);
   border-top: 5px solid lightgoldenrodyellow;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Graduate";
   font-size: 15px;
 }
