@@ -14,10 +14,11 @@ body {
 	font-size: 70px;
   color: lightgoldenrodyellow;
   font-family: 'Fredoka One', cursive;
+  margin-bottom: 10px;
 }
 
 .gifButton {
-  padding: 12px 24px;
+  padding: 15px 30px;
   font-size: 18px;
   font-weight: bold;
   font-family: 'Poiret One', cursive;
@@ -30,7 +31,7 @@ body {
   border-radius: 10px;
   box-shadow: 4px 5px rgba(45, 20, 56, 0.658);
   display: inline;
-  margin: 10px 5px;
+  margin: 8px 6px;
 }
 
 .gifButton:hover {
@@ -42,7 +43,7 @@ body {
   background: transparent;
   box-shadow: 0 5px rgb(75, 41, 90);
   color: lightgoldenrodyellow;
-  transform: translateY(4px);
+  transform: translateY(3px) translateX(3px);
 }
 
 #gifPanel {
