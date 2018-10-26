@@ -1,7 +1,8 @@
 // Initial arrays
-var gifsArr = ["rick and morty", "the walking dead", "ray donovan", "the deuce",
-  "the simpsons", "kidding", "ballers", "shameless", "american horror story",
-  "it's always sunny in philadelphia", "south park", "elementary", "mordern family", "the haunting of hill house"];
+var gifsArr = ["Rick and Morty", "The Walking Dead", "Ray Donovan", "The Deuce",
+  "The Simpsons", "Kidding", "Ballers", "Shameless", "American Horror Story",
+  "It's Always Sunny in Philadelphia", "South Park", "Elementary", "Mordern Family",
+  "The Haunting of Hill House", "Game of Thrones", "Breaking Bad", "The Grand Tour"];
 
 function renderButtons() {
 
@@ -10,9 +11,9 @@ function renderButtons() {
   for (var i = 0; i < gifsArr.length; i++) {
 
     var button = $("<button>");
-      button.addClass("gifButton");
-      button.attr("data-gif", gifsArr[i]);
-      button.text(gifsArr[i]);
+    button.addClass("gifButton");
+    button.attr("data-gif", gifsArr[i]);
+    button.text(gifsArr[i]);
 
     $("#buttonPanel").append(button);
   }
@@ -35,7 +36,7 @@ function fetchGifs() {
   var gifStr = gifName.split(" ").join("+");
 
   var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + gifStr +
-    "&rating=pg-13&limit=20&api_key=xrIhtNV4IEaqVCo4Ese4sXx1vqrBq9FZ";
+    "&rating=pg-13&limit=10&api_key=xrIhtNV4IEaqVCo4Ese4sXx1vqrBq9FZ";
 
   $.ajax({
     method: "GET",

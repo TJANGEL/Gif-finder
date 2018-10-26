@@ -47,7 +47,7 @@ body {
 }
 
 #gifPanel {
-  margin: 10px 0px 0px 0px;
+  margin: 30px 0px 0px 0px;
 }
 
 .gif {
@@ -59,6 +59,7 @@ body {
   background-color: lightgoldenrodyellow;
   border: 3px solid rgba(91, 37, 114, 0.658);
   box-shadow: 4px 5px rgb(75, 41, 90);
+  margin-right: 90px;
 }
 
 .gif:hover {
@@ -76,15 +77,22 @@ body {
   top: 6px;
 }
 
+.gif h2:hover {
+  background-color: transparent;
+  color: white;
+}
+
 .gif img {
   border-radius: 0px 0px 5px 5px;
   margin-top: 15px;
   margin-bottom: -3px;
+  height: 240px;
+  width: 320px;
 }
 
 .formPanel {
   position: relative;
-  top: 24px;
+  top: 46px;
   right: 15px;
   border-radius: 10px;
   background-color: lightgoldenrodyellow;
@@ -145,7 +153,7 @@ body {
   background-color: rgba(75, 41, 90, 0.842);
   border-top: 5px solid lightgoldenrodyellow;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   font-family: "Graduate";
   font-size: 15px;
 }
