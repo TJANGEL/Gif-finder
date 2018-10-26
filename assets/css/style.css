@@ -51,11 +51,11 @@ body {
 }
 
 .gif {
-  margin: 15px 20px 0px 0px;
+  margin: 15px 15px 10px 0px;
   float: left;
   border-radius: 10px;
   position: relative;
-  /* left: -15px; */
+  left: -15px;
   background-color: lightgoldenrodyellow;
   border: 3px solid rgba(91, 37, 114, 0.658);
   box-shadow: 4px 5px rgb(75, 41, 90);
@@ -93,7 +93,8 @@ body {
 
 .inputLabel {
   font-size: 18px;
-  color: rgba(75, 41, 90, 0.658);
+  color: rgba(75, 41, 90, 0.904);
+  font-weight: bold;
   margin: 20px 0px;
   margin-left: 5px;
   font-family: 'Poiret One', cursive;
